@@ -205,7 +205,7 @@ task.spawn(function()
         end
     end
 end)
-local FilePath = "TestHubSaveKingLegacy"
+local FilePath = "PornHUBSaveKingLegacy"
 local SettingsFile = FilePath .. "/CombinedSettings.json"  -- Đảm bảo sử dụng đúng ký tự phân cách thư mục
 
 local combinedData = {}
@@ -4074,11 +4074,11 @@ RunService.RenderStepped:Connect(function()
 end)
 
 hubTab:AddSection({
-    Name = "Cre: ginchao"
+    Name = "Cre: PornHUB.com"
 })
 
 hubTab:AddSection({
-    Name = "TestHubV2 | King Legacy"
+    Name = "PornHUB | King Legacy"
 })
 
 local HttpService = game:GetService("HttpService")
@@ -4368,7 +4368,7 @@ local payload = HttpService:JSONEncode({
         ["fields"] = fields,
         ["footer"] = {
             ["text"] = "TestHub | Thông báo tự động",
-            ["icon_url"] = ""
+            ["icon_url"] = "OIP.jpg"
         },
         ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S.000Z", os.time())
     }}
